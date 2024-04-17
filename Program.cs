@@ -25,7 +25,7 @@ namespace Projet_MDD_roméo_noé
             MySqlConnection maConnexion = null;
             try
             {
-                string connectionString = "SERVER=localhost;PORT=3306;DATABASE=Projet_SQL;UID=root;PASSWORD=Jesaisplus0.;";
+                string connectionString = "SERVER=localhost;PORT=3306;DATABASE=Projet_SQL;UID=root;PASSWORD=(Mettre le bon mdp);";
                 maConnexion = new MySqlConnection(connectionString);
                 maConnexion.Open();
             }
